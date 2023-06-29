@@ -1,51 +1,46 @@
-# Volvo Cars (Global Online Digital)
+# Meu Projeto de Teste Front-end
 
-## Front-end coding test (React)
+Este é um projeto de teste front-end criado usando React, TypeScript e Next.js. O objetivo deste projeto é explorar e testar diferentes recursos e funcionalidades do React com uma abordagem baseada em componentes.
 
-Our team's designer has come up with a new design to show our latest and greatest recharge cars on the website.
+## Pré-requisitos
 
-Here is how the design look like for desktop and mobile (files are stored under `docs` folder)
+Certifique-se de ter o Node.js instalado em sua máquina.
 
-### Desktop
+## Instalação
 
-![ProductListDesktop](./docs/ProductList-Desktop.png)
+1. Clone este repositório: `git clone git@github.com:brlga002/front-volvo-cars.git`
+2. Navegue até o diretório do projeto: `cd front-volvo-cars`
+3. Instale as dependências: `yarn install`
 
-### Mobile
+## Executando o projeto
 
-![ProductListDesktop](./docs/ProductList-Mobile.png)
+Execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-The data required to render the design is under `public/api/cars.json` folder. You need to fetch the data and render it in the browser. The data looks like this:
-
-```json
-[
-  {
-    "id": "xc90-recharge",
-    "modelName": "XC90 Recharge",
-    "bodyType": "suv",
-    "modelType": "plug-in hybrid",
-    "imageUrl": "/images/xc90_recharge.jpg"
-  }
-]
+```bash
+yarn dev
 ```
 
-The product owner is telling you that you can generate the links to the learn and shop pages of each car by concatating the `id` of the car to the learn (`/learn/`) and shop (`/shop/`) urls.
+O servidor de desenvolvimento será iniciado e você poderá acessar o aplicativo no seu navegador em `http://localhost:3000`.
 
-Two extra SVG icons are also provided by our designer which are stored under `docs` folder.
+## Sobre o Projeto da Volvo
 
-## Requirements
+O projeto da Volvo é um exemplo de um front-end com a interface do usuário (UI) da Volvo. Ele foi desenvolvido usando as melhores práticas e padrões de design da Volvo.
 
-- The project is bootstraped using [Next.js](https://nextjs.org/).
-- Browser support is modern ever-green browsers.
-- Implement this design using React and Typescript.
-- Accessibility is important.
-- Code Structure and reusablity is important.
+### Recursos do Projeto da Volvo
 
-## Bonus Points:
+- Layout responsivo e adaptável a diferentes dispositivos e tamanhos de tela.
+- Componentes reutilizáveis e modulares.
+- Estilo moderno e elegante, seguindo as diretrizes de design da Volvo.
+- Integração com APIs para recuperar dados dinâmicos.
+- Navegação intuitiva e fácil de usar.
 
-- If you use our design system component library, [VCC-UI](https://vcc-ui.vercel.app/)
-- If you add a filter bar on the top to filter cars by `bodyType`
+### Tecnologias Utilizadas
 
-## Submission
+- React: Biblioteca JavaScript para criação de interfaces de usuário.
+- TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+- Next.js: Framework React que permite renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).-
+- swiperjs: lib de swiper.
 
-Clone this repository to get started. Due to a number of reasons, not least privacy, you will be asked to zip your solution and mail it in, instead of submitting a pull-request. In order to maintain an unbiased reviewing process, please ensure to keep your name or other Personal Identifiable Information (PII) from the code.
+## Contato
 
+Neste link tem todos os meus contatos: [realtechservices.com.br](https://realtechservices.com.br)

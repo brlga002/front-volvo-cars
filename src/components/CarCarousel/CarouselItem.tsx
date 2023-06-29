@@ -43,7 +43,7 @@ function CarouselItem({ car }: CarouselItemProps) {
         }}
       >
         <Link
-          href=""
+          href="#"
           arrow="right"
           onClick={() => router.push(`learn/${car.id}`)}
         >
@@ -51,7 +51,7 @@ function CarouselItem({ car }: CarouselItemProps) {
         </Link>
         <Spacer size={4} />
         <Link
-          href=""
+          href="#"
           onClick={() => router.push(`shop/${car.id}`)}
           arrow="right"
         >
