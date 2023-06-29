@@ -33,9 +33,7 @@ function HeaderNavigation(props: HeaderNavigationProps) {
 
       <Block as="nav" extend={{ marginRight: 30 }}>
         <NavItem onClick={() => router.push("/")} isActive={isHomePage}>
-          <Text variant="amundsen">
-            {isHomePage ? "Home" : "Go back to Home"}
-          </Text>
+          <Text variant="amundsen">{isHomePage ? "Home" : "Go Back"}</Text>
         </NavItem>
       </Block>
     </Block>

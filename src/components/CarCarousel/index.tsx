@@ -59,7 +59,7 @@ function CarCarousel({ cars }: CarCarouselProps) {
             spaceBetween: 20,
           },
           490: {
-            slidesPerView: 3,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
         }}
