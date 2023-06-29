@@ -22,6 +22,9 @@ yarn dev
 
 O servidor de desenvolvimento será iniciado e você poderá acessar o aplicativo no seu navegador em `http://localhost:3000`.
 
+## Versão online
+[Segue a versão online na vercel](https://front-volvo-cars.vercel.app)
+
 ## Sobre o Projeto da Volvo
 
 O projeto da Volvo é um exemplo de um front-end com a interface do usuário (UI) da Volvo. Ele foi desenvolvido usando as melhores práticas e padrões de design da Volvo.
