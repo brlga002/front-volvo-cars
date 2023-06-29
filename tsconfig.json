@@ -29,7 +29,16 @@
       ],
       "pages/*": [
         "src/pages/*"
-      ],
+      ],   
+      "providers/*": [
+        "src/providers/*"
+      ],   
+      "services/*": [
+        "src/services/*"
+      ],   
+      "api/*": [
+        "public/api/*"
+      ],   
     }
   },
   "exclude": [

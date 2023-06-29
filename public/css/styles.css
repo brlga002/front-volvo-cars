@@ -18,3 +18,18 @@ body {
     display: block
   }   
 }
+
+.transition-card {
+  opacity: 0;
+  animation: fade-in 0.3s 0.3s forwards;
+}
+
+.transition-card-low {
+  opacity: 0;
+  animation: fade-in 1s 1s forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

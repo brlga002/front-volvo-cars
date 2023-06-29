@@ -1,10 +1,11 @@
 import "public/css/styles.css";
+
 import React from "react";
 import { AppProps } from "next/app";
 import { StyleProvider, ThemePicker } from "vcc-ui";
 import Head from "next/head";
 import { FavIcons } from "@volvo-cars/favicons/react";
-import HeaderNavigation from "components/HeadNavigation";
+import HeaderNavigation from "components/HeaderNavigation";
 import { ProvideApi } from "providers/apiProvider";
 
 export default function App(props: AppProps) {
