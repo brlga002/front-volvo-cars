@@ -1,10 +1,11 @@
-import "../public/css/styles.css";
+import "public/css/styles.css";
 import React from "react";
 import { AppProps } from "next/app";
 import { StyleProvider, ThemePicker } from "vcc-ui";
 import Head from "next/head";
 import { FavIcons } from "@volvo-cars/favicons/react";
 import HeaderNavigation from "components/HeadNavigation";
+import { ProvideApi } from "providers/apiProvider";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -27,7 +28,9 @@ export default function App(props: AppProps) {
             <FavIcons />
           </Head>
           <HeaderNavigation />
-          <Component {...pageProps} />
+          <ProvideApi>
+            <Component {...pageProps} />
+          </ProvideApi>
         </ThemePicker>
       </StyleProvider>
     </React.StrictMode>
